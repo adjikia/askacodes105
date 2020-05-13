@@ -1,0 +1,162 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.two-thirds-width {
+    width:800px;
+    margin: 0px auto;
+    float: left;
+}
+
+.third-width {
+    width: 380px;
+    margin: 0 5px auto 0px;
+    float: left;
+    padding:0px 11px 0px 2px;
+}
+
+
+/***** HEADER ****/
+header h1 {
+  font-weight:700;
+  text-transform:uppercase;
+  color:#77a466;
+  font-size:30px;
+  line-height:23px;
+  padding-top:49px;
+  padding-bottom:40px;
+}
+
+header span {
+  color:#000000;
+}
+
+header ul a{
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#77a466;
+  font-weight:700;
+  font-size:14px;
+}
+
+nav {
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    padding-right:25px;
+    padding-top:49px;
+    padding-bottom:40px;
+}
+
+
+div#return-header {
+  background-color: goldenrod;
+  height:90px;
+}
+
+#return-header a {
+  text-decoration: none;
+}
+
+#return-header h3 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#330033;
+  text-align:center;
+  font-family: 'Yantramanav', sans-serif;
+  letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+/***** ABOUT ****/
+ #hero {
+   border-top: 3px solid #77a466;
+   border-bottom: 3px solid #77a466;
+}
+
+h2 {
+  text-transform:uppercase;
+  color:#77a466;
+  font-size:18px;
+  font-weight:700;
+  line-height:23px;
+}
+
+#about-text {
+  padding-bottom:65px;
+  border-bottom:1px solid #ebebeb;
+}
+
+p {
+  font-size:16px;
+  line-height:23px;
+}
+
+/***** GRID Content *****/
+#grid-content h4 {
+  text-transform:uppercase;
+  font-size:12px;
+  line-height:25px;
+  font-weight:700;
+}
+
+#grid-content ol li a{
+  font-size:16px;
+  line-height:28px;
+  text-decoration:none;
+  color:#77a466;
+}
+
+#grid-content ol {
+  padding-left:0px;
+  list-style-type:none;
+
+}
+
+#grid-content p {
+  font-size:16px;
+  line-height:24px;
+}
+
+
+#grid-content div#menu.third-width {
+  border-right:1px solid #ebebeb;
+}
+
+#grid-content div#reviews.third-width {
+  border-right:1px solid #ebebeb;
+  height:210px;
+}
+
+/***** FOOTER *****/
+footer {
+  clear:both;
+}
+
+h3 {
+  font-size:16px;
+  font-weight:700;
+  line-height:23px;
+  text-transform:uppercase;
+  text-align:center;
+  padding:33px 0px 34px 0px;
+  border-top:1px solid #ebebeb;
+
+}
+
+footer span {
+  font-family:'galada';
+  color:#77a466;
+  letter-spacing:1px;
+}
